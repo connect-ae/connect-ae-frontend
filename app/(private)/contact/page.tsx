@@ -26,17 +26,17 @@ const Contact = (props: Props) => {
           text="Contact Information"
           description="Reach out to us to learn more about how we can assist you. Whether you need support, have questions, or want to explore partnership opportunities, our team is here to help."
         />
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-5">
           <ContactInfoItem
             icon={<MapPin size={25} />}
             title="Address"
             content={CONTACT_DATA.address}
           />
-          <ContactInfoItem
+          {/* <ContactInfoItem
             icon={<Phone size={25} />}
             title="Phone"
             content={CONTACT_DATA.phone}
-          />
+          /> */}
           <ContactInfoItem
             icon={<Envelope size={25} />}
             title="Email"

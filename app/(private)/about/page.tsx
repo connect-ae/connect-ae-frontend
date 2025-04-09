@@ -27,7 +27,7 @@ const About = () => {
       <Main />
       <OurMissions />
       <CoreValues />
-      <Team />
+      {/* <Team /> */}
     </>
   );
 };

@@ -7,6 +7,8 @@ import Heading from "../ui/Heading";
 import Textarea from "../forms/Textarea";
 import { useMutation } from "@tanstack/react-query";
 import { createContactRequest } from "@/app/api/api";
+import Map from "./Map";
+import { ADDRESS } from "@/app/config/constant";
 
 const ContactUsForm = () => {
   const initialFormValues = {
@@ -34,12 +36,16 @@ const ContactUsForm = () => {
 
   return (
     <div className="lg:flex space-y-8 gap-8 md:*:flex-1">
-      <Heading
-        align="left"
-        text="Get in Touch"
-        description="Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Consectetur, incidunt? Quod illum magni cum laboriosam error, aliquid iure omnis eum quasi cumque a, dolorum quaerat maxime, minima quia vel fuga!"
-      />
-      <form onSubmit={handleSubmit} className="flex flex-col gap-4 items-end">
+      <div className="space-y-3">
+        <Heading
+          align="left"
+          text="Let’s Connect."
+          description="We're Here to Assist: Contact SofSupply for Product Inquiries, Careers, and Press."
+        />
+        <Map address={ADDRESS} />
+      </div>
+      <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+        <Heading align="left" text="Let’s Connect." />
         <div className="md:flex space-y-4 gap-4 w-full">
           <Input
             label="Name"
@@ -86,7 +92,7 @@ const ContactUsForm = () => {
           placeholder="Message"
         />
 
-        <Button label="Submit" type="submit" />
+        <Button className="self-end" label="Submit" type="submit" />
       </form>
     </div>
   );

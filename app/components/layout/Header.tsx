@@ -30,7 +30,7 @@ const Header = (props: Props) => {
             link={NAVIGATION_LINKS?.contact}
             className="lg:flex hidden"
             icon={<Icon.ArrowRight weight="bold" />}
-            label="Get in Touch"
+            label="Let’s Connect."
             variant="primary"
           />
         </div>

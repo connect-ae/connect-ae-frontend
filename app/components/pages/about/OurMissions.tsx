@@ -8,39 +8,32 @@ type Props = {};
 const OurMissions = (props: Props) => {
   return (
     <Section>
-      <Heading
-        text="We are here for a mission"
-        description="Amet, fames enim vel nec elit aliquet vestibulum vitae tempus. Lacus adipiscing vitae, aliquet lorem. Praesent nulla consequat mauris, tristique elementum,."
-      />
+      <Heading text="Our Mission" />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {/* Left Wide Card */}
         <div className="sm:col-span-2">
           <MissionCard
-            label="Optimizing Marketing Processes"
-            heading="We boast a unique, close-knit team with experts in all facets of web marketing: strategic, creative and technical."
-            description="Urna consectetur justo morbi parturient. Sodales massa pulvinar mattis eros nam sed congue. Enim cras nibh aliquam pretium, tellus hendrerit enim ut bibendum. Mattis vitae, amet posuere quam ut ullamcorper. Non porttitor risus morbi facilisi vel magna amet sed bibendum. Aliquet bibendum viverra et vestibulum, est viverra pulvinar nulla lobortis."
+            heading="Our mission is simple"
+            description="to connect businesses with the people who matter most — their customers. Through targeted SEO, paid media, social marketing, and custom digital solutions, we turn online presence into measurable growth."
           />
         </div>
 
         {/* Two Equal Cards */}
         <MissionCard
-          label="Optimizing Marketing Processes"
-          heading="Our digital marketing team goes beyond results"
-          description="Massa mauris velit, sodales mi vulputate amet. Accumsan eu donec etiam consequat. Amet ultrices mi malesuada lobortis id elementum ultrices nunc."
+          heading="With a focus on transparency"
+          description="creativity, and results, we work as an extension of your team — aligning your goals with strategies that actually move the needle."
         />
         <MissionCard
-          label="Growing Online Businesses"
-          heading="Helping businesses improve their marketing efforts and gain a competitive edge."
-          description="Et mauris malesuada tempus nulla tempus libero.  Dignissim sapien praesent nunc aliquam amet facilisi. Ut proin ultrices."
+          heading="We blend strategy with creativity"
+          description="data with intuition, and big ideas with even bigger execution. Think of us as the team that plugs you into the right audience, at the right time, in the right way."
         />
 
         {/* Bottom Wide Card */}
         <div className="sm:col-span-2">
           <MissionCard
-            label="Optimizing Marketing Processes"
-            heading="Our passion fuels our pride on staying up to date with all the latest developments."
-            description="Consequat amet montes, sagittis, sem. Etiam ipsum laoreet velit in nisl diam vel aliquam praesent. Dictumst porta elit mauris tellus ac. Sed tempor in eleifend varius fermentum amet ipsum vel condimentum. Tortor eu iaculis diam, quis viverra. Quisque volutpat orci posuere ultrices a mauris est, eget. Lectus suscipit integer."
+            heading="We started Connect AE"
+            description="because we saw too many brands getting lost in the noise. Our mission? Help you rise above it. Whether it’s crafting scroll-stopping content, building ad campaigns that actually convert, or making sure Google knows you exist (and loves you), we’re here to make it happen."
           />
         </div>
       </div>

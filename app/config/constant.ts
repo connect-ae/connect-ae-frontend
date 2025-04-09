@@ -7,6 +7,10 @@ import {
 } from "../types";
 
 export const BASE_URL = process.env.NEXT_PUBLIC_API_URL;
+export const PHONE_NUMBER = "";
+export const EMAIL = "enquiry@connect-ae.com";
+export const LOCATION = "Dubai, UAE";
+export const ADDRESS = "Dubai, UAE";
 
 // export const SERVICES_DATA: Service[] = [
 //   {
@@ -190,102 +194,103 @@ export const BASE_URL = process.env.NEXT_PUBLIC_API_URL;
 
 export const TESTIMONIALS_DATA: Testimonial[] = [
   {
-    name: "Devon Lane",
-    username: "@devlane",
+    name: "Sarah L",
+    username: "Business Owner",
     avatar: "https://i.pravatar.cc/1000?img=1",
     rating: 5.0,
     comment:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+      "Working with ConnectAE has been a seamless experience from start to finish. Their team understood our requirements perfectly and delivered a high-quality website ahead of schedule. Highly recommend them for anyone looking for professional digital solutions.",
   },
   {
-    name: "Jane Cooper",
-    username: "@janecoop",
+    name: "Michael P",
+    username: "Marketing Director",
     avatar: "https://i.pravatar.cc/1000?img=2",
     rating: 5.0,
     comment:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+      "The ConnectAE team exceeded our expectations at every step. Their expertise in both design and functionality helped us create a mobile app that our users love. Communication was excellent throughout the project.",
   },
   {
-    name: "Eleanor Pena",
-    username: "@eleanorpena",
+    name: "Fatima R",
+    username: "Startup Founder",
     avatar: "https://i.pravatar.cc/1000?img=3",
     rating: 5.0,
     comment:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+      "From branding to web development, ConnectAE handled everything with professionalism and creativity. The project was delivered on time, and the results have significantly boosted our online presence. Thank you for a great experience!",
   },
   {
-    name: "Robert Fox",
-    username: "@robertfox",
+    name: "David K",
+    username: "Operations Manager",
     avatar: "https://i.pravatar.cc/1000?img=4",
     rating: 5.0,
     comment:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+      "We had a complicated project with very specific needs, and ConnectAE delivered flawlessly. Their team was patient, knowledgeable, and always available when we had questions. It’s rare to find this level of dedication and service.",
   },
   {
-    name: "Leslie Alexander",
-    username: "@lesliealex",
+    name: "Ayesha M",
+    username: "CEO",
     avatar: "https://i.pravatar.cc/1000?img=5",
     rating: 5.0,
     comment:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+      "Choosing ConnectAE was one of the best decisions we made for our business. Their strategic approach and innovative solutions helped us not only launch a new website but also improve our brand image overall. Truly a five-star service.",
   },
   {
-    name: "Jerome Bell",
-    username: "@jeromebell",
+    name: "Omar T",
+    username: "Entrepreneur",
     avatar: "https://i.pravatar.cc/1000?img=6",
     rating: 5.0,
     comment:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+      "ConnectAE took our vision and brought it to life better than we could have imagined. Their attention to detail and commitment to quality truly sets them apart. We’re thrilled with the final product and look forward to working with them again.",
   },
 ];
 
 export const FAQ_DATA: FaqItem[] = [
   {
-    question: "What is your return policy?",
+    question: "What services does Connect AE provide?",
     answer:
-      "You can return any item within 30 days of purchase. Please keep the receipt and original packaging.",
+      "Connect AE offers a wide range of services including custom iOS and Android app development, website design and development, UI/UX design, and 2D/3D logo and animation solutions.",
   },
   {
-    question: "How long does shipping take?",
-    answer: "Shipping usually takes 3–5 business days within the country.",
+    question: "Where is Connect AE headquartered?",
+    answer: "Connect AE is headquartered in Bethesda, Maryland, USA.",
   },
   {
-    question: "Do you ship internationally?",
-    answer: "Yes, we do. Delivery times may vary depending on the destination.",
-  },
-  {
-    question: "Can I track my order?",
+    question: "What is the official website of Connect AE?",
     answer:
-      "Absolutely. Once your order is shipped, you'll receive a tracking number via email or SMS.",
+      "You can visit Connect AE at https://sofsupply.com (branding may vary, but domain remains active under the service umbrella).",
   },
   {
-    question: "What payment methods do you accept?",
-    answer: "We accept all major credit/debit cards, PayPal, and Apple Pay.",
-  },
-  {
-    question: "How can I change or cancel my order?",
+    question: "Which industry does Connect AE operate in?",
     answer:
-      "Please contact our support team within 12 hours of placing the order to request changes or cancellation.",
+      "Connect AE is part of the IT System & Custom Software Development industry.",
   },
   {
-    question: "Is my personal information secure?",
-    answer:
-      "Yes. We use industry-standard encryption and follow GDPR compliance to protect your data.",
+    question: "When was Connect AE founded?",
+    answer: "Connect AE was established in the year 2020.",
   },
   {
-    question: "Do you offer bulk purchase discounts?",
+    question: "What is the mission of Connect AE?",
     answer:
-      "Yes, we do. Please contact our sales team for a custom quote for bulk orders.",
+      "Connect AE is driven by a mission to empower businesses by transforming ideas into reality through immersive design, development, and digital storytelling.",
   },
   {
-    question: "Can I request gift packaging?",
+    question: "Which platforms does Connect AE use to showcase its portfolio?",
     answer:
-      "Yes, gift packaging is available at checkout for a small additional fee.",
+      "Connect AE actively promotes its work on professional platforms like LinkedIn and Behance.",
   },
   {
-    question: "What if I received a damaged item?",
+    question: "How experienced is the Connect AE team?",
     answer:
-      "We’re sorry! Please share photos of the damaged item with our support team within 48 hours to initiate a replacement.",
+      "The Connect AE team brings 5+ years of hands-on experience in full-stack mobile and web development, along with creative digital design.",
+  },
+  {
+    question: "What technologies does Connect AE work with?",
+    answer:
+      "Connect AE utilizes modern frameworks and tools such as ReactJS, Tailwind CSS, CorePHP, Firebase, AWS, and OpenAI APIs to deliver scalable and innovative solutions.",
+  },
+  {
+    question: "How can I get in touch with Connect AE?",
+    answer:
+      "You can reach Connect AE via their contact form on the website or by emailing contact@sofsupply.com for direct inquiries.",
   },
 ];
 
@@ -339,32 +344,14 @@ export const TEAM_DATA = [
 export const CONTACT_DATA = {
   address: [
     {
-      name: "Weifield Group Contracting",
-      value: "6950 S. Jordan Road Centennial, CO 80112",
-    },
-    {
-      name: "Northern Colorado Office",
-      value: "6775 Sherman Street, Loveland, CO 80538",
-    },
-  ],
-  phone: [
-    {
-      name: "Weifield Group Contracting",
-      value: "+1 (123) 456-7890",
-    },
-    {
-      name: "Northern Colorado Office",
-      value: "+1 (987) 654-3210",
+      name: "Location",
+      value: LOCATION,
     },
   ],
   email: [
     {
-      name: "Weifield Group Contracting",
-      value: "info@weifieldgroup.com",
-    },
-    {
-      name: "Northern Colorado Office",
-      value: "support@weifieldgroup.com",
+      name: "Email",
+      value: EMAIL,
     },
   ],
 };

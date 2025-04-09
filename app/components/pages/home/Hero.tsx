@@ -10,16 +10,16 @@ const Hero = () => {
       <div className="flex items-center gap-20 justify-between">
         <div className="flex flex-col items-center lg:items-start flex-1 mx-auto lg:mx-0 max-w-[600px] text-center lg:text-left">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-2">
-            Growing your <span className="text-primary">Business </span>
-            with confidence
+            We Connect, <span className="text-primary">Engage,</span> and Grow.
           </h1>
           <p className="text-lg text-gray-500 mb-6">
-            Bonsai is the only tool you need to run your business. Manage your
-            clients. deliver great work. get paid, and track your finances.
+            We’re Connect AE — your digital hype team, growth partner, and go-to
+            crew for making your brand stand out online. No fluff, no jargon —
+            just smart, creative digital marketing that gets real results.
           </p>
           <Button
             link={NAVIGATION_LINKS?.contact}
-            label="Get Started"
+            label="Let’s Connect."
             size="large"
           />
         </div>

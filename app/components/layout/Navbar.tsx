@@ -56,7 +56,7 @@ const Navbar = ({ className }: Props) => {
           <Button
             className="order-1 lg:order-2"
             icon={<Icon.ArrowRight weight="bold" />}
-            label="Get in Touch"
+            label="Let’s Connect."
             variant="primary"
           />
         </div>

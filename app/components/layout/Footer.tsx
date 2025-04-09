@@ -9,6 +9,7 @@ import { SERVICES_ENDPOINT } from "@/app/api/endpoints";
 import { useQuery } from "@tanstack/react-query";
 import { fetchServices } from "@/app/api/api";
 import { NAVIGATION_LINKS } from "@/app/config/routes";
+import { ADDRESS, EMAIL, LOCATION } from "@/app/config/constant";
 
 // Reusable Link type
 type Link = {
@@ -96,7 +97,7 @@ const Footer: React.FC = () => {
               { label: "About us", href: "/about" },
               { label: "Our Mission", href: "/about" },
               { label: "Our core values", href: "/about" },
-              { label: "Our Team", href: "/about" },
+              // { label: "Our Team", href: "/about" },
             ]}
           />
           <FooterColumn
@@ -115,17 +116,13 @@ const Footer: React.FC = () => {
             title="Collaborate With Us"
             links={[
               {
-                label: "Email: contact@company.com",
+                label: `Email: ${EMAIL}`,
                 href: "mailto:contact@company.com",
               },
-              { label: "Phone: +1-800-123-4567", href: "tel:+18001234567" },
+              // { label: "Phone: +1-800-123-4567", href: "tel:+18001234567" },
               {
-                label: "Karachi Office",
-                href: "https://maps.google.com/?q=Karachi+Pakistan",
-              },
-              {
-                label: "Lahore Office",
-                href: "https://maps.google.com/?q=Lahore+Pakistan",
+                label: `Location: ${LOCATION}`,
+                href: ADDRESS,
               },
             ]}
           />
@@ -133,7 +130,7 @@ const Footer: React.FC = () => {
       </div>
       <hr className="my-6 border-white/20 sm:mx-auto lg:my-8" />
       <div className="md:flex md:justify-between md:space-y-0 space-y-3 items-center gap-3 text-center md:text-left">
-        <FooterBottom text="© 2021-2022 Fundex. All Rights Reserved." />
+        <FooterBottom text="© 2025 Connect AE. All Rights Reserved." />
         <FooterSocialIcons />
       </div>
     </Section>
