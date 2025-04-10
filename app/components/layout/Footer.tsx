@@ -9,7 +9,7 @@ import { SERVICES_ENDPOINT } from "@/app/api/endpoints";
 import { useQuery } from "@tanstack/react-query";
 import { fetchServices } from "@/app/api/api";
 import { NAVIGATION_LINKS } from "@/app/config/routes";
-import { ADDRESS, EMAIL, LOCATION } from "@/app/config/constant";
+import { ADDRESS, EMAIL, LOCATION, MAP_LOACTION } from "@/app/config/constant";
 
 // Reusable Link type
 type Link = {
@@ -117,12 +117,12 @@ const Footer: React.FC = () => {
             links={[
               {
                 label: `Email: ${EMAIL}`,
-                href: "mailto:contact@company.com",
+                href: `mailto:${EMAIL}`,
               },
               // { label: "Phone: +1-800-123-4567", href: "tel:+18001234567" },
               {
                 label: `Location: ${LOCATION}`,
-                href: ADDRESS,
+                href: MAP_LOACTION,
               },
             ]}
           />

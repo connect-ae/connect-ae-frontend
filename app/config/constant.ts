@@ -11,6 +11,8 @@ export const PHONE_NUMBER = "";
 export const EMAIL = "enquiry@connect-ae.com";
 export const LOCATION = "Dubai, UAE";
 export const ADDRESS = "Dubai, UAE";
+export const MAP_LOACTION =
+  "https://www.google.com/maps/place/Dubai+-+United+Arab+Emirates/@25.0762804,54.8978109,10z/data=!3m1!4b1!4m6!3m5!1s0x3e5f43496ad9c645:0xbde66e5084295162!8m2!3d25.2048493!4d55.2707828!16zL20vMDFmMDhy?coh=245189&entry=tts&g_ep=EgoyMDI1MDQwOC4wIPu8ASoJLDEwMjExNDU1SAFQAw%3D%3D&skid=88d43ae1-7f59-4fe3-932d-7838ae84e20b";
 
 // export const SERVICES_DATA: Service[] = [
 //   {
@@ -196,7 +198,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
   {
     name: "Sarah L",
     username: "Business Owner",
-    avatar: "https://i.pravatar.cc/1000?img=1",
+    avatar: "https://i.pravatar.cc/1000?img=41",
     rating: 5.0,
     comment:
       "Working with ConnectAE has been a seamless experience from start to finish. Their team understood our requirements perfectly and delivered a high-quality website ahead of schedule. Highly recommend them for anyone looking for professional digital solutions.",
@@ -204,7 +206,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
   {
     name: "Michael P",
     username: "Marketing Director",
-    avatar: "https://i.pravatar.cc/1000?img=2",
+    avatar: "https://i.pravatar.cc/1000?img=13",
     rating: 5.0,
     comment:
       "The ConnectAE team exceeded our expectations at every step. Their expertise in both design and functionality helped us create a mobile app that our users love. Communication was excellent throughout the project.",
@@ -212,7 +214,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
   {
     name: "Fatima R",
     username: "Startup Founder",
-    avatar: "https://i.pravatar.cc/1000?img=3",
+    avatar: "https://i.pravatar.cc/1000?img=38",
     rating: 5.0,
     comment:
       "From branding to web development, ConnectAE handled everything with professionalism and creativity. The project was delivered on time, and the results have significantly boosted our online presence. Thank you for a great experience!",
@@ -220,7 +222,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
   {
     name: "David K",
     username: "Operations Manager",
-    avatar: "https://i.pravatar.cc/1000?img=4",
+    avatar: "https://i.pravatar.cc/1000?img=11",
     rating: 5.0,
     comment:
       "We had a complicated project with very specific needs, and ConnectAE delivered flawlessly. Their team was patient, knowledgeable, and always available when we had questions. It’s rare to find this level of dedication and service.",
@@ -236,7 +238,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
   {
     name: "Omar T",
     username: "Entrepreneur",
-    avatar: "https://i.pravatar.cc/1000?img=6",
+    avatar: "https://i.pravatar.cc/1000?img=12",
     rating: 5.0,
     comment:
       "ConnectAE took our vision and brought it to life better than we could have imagined. Their attention to detail and commitment to quality truly sets them apart. We’re thrilled with the final product and look forward to working with them again.",
@@ -256,7 +258,7 @@ export const FAQ_DATA: FaqItem[] = [
   {
     question: "What is the official website of Connect AE?",
     answer:
-      "You can visit Connect AE at https://sofsupply.com (branding may vary, but domain remains active under the service umbrella).",
+      "You can visit Connect AE at https://Connect AE.com (branding may vary, but domain remains active under the service umbrella).",
   },
   {
     question: "Which industry does Connect AE operate in?",
@@ -290,7 +292,7 @@ export const FAQ_DATA: FaqItem[] = [
   {
     question: "How can I get in touch with Connect AE?",
     answer:
-      "You can reach Connect AE via their contact form on the website or by emailing contact@sofsupply.com for direct inquiries.",
+      "You can reach Connect AE via their contact form on the website or by emailing contact@Connect AE.com for direct inquiries.",
   },
 ];
 

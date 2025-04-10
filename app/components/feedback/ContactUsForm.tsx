@@ -40,7 +40,7 @@ const ContactUsForm = () => {
         <Heading
           align="left"
           text="Let’s Connect."
-          description="We're Here to Assist: Contact SofSupply for Product Inquiries, Careers, and Press."
+          description="We're Here to Assist: Contact Connect AE for Product Inquiries, Careers, and Press."
         />
         <Map address={ADDRESS} />
       </div>
